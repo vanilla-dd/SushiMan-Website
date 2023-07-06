@@ -1,4 +1,4 @@
-.nav__bigScreen {
+.navigation {
   display: flex;
 }
 .nav__logo,
@@ -28,7 +28,9 @@
   font-size: 1.125rem;
   color: var(--black-200);
 }
-
+.nav__links button img {
+  max-width: 1.5rem;
+}
 /* media query */
 @media (width<786px) {
   .nav__links {
@@ -39,17 +41,31 @@
     transform: translateX(100%);
     transition: transform 500ms ease-in;
   }
+  .nav__links[data-visible="true"] {
+    transform: translateX(0%);
+  }
   .nav__logo {
     display: flex;
     justify-content: space-between;
   }
-  .show {
-    transform: translateX(0%);
-  }
-  .open {
-    position: fixed;
-    right: 2rem;
-
+  .hamburger {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     z-index: 9999;
+  }
+
+  .hamburger[aria-expanded="false"] {
+    background-image: url("./public/hamburgerClose.svg");
+  }
+
+  .hamburger[aria-expanded="true"] {
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
+    background-image: url("./public/hamburgerOpen.svg");
   }
 }
