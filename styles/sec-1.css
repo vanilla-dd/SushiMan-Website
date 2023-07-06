@@ -1,0 +1,108 @@
+.sec-1 {
+  display: flex;
+  align-items: end;
+}
+
+.sec-1__about-1,
+.sec-1__about-2 {
+  padding-left: 4rem;
+}
+.sec-1__img {
+  position: relative;
+  flex: 1;
+}
+.sec-1__about {
+  flex: 1.205;
+
+  font-family: var(--playfair-display);
+}
+.sec-1__img {
+  background-color: var(--primary-color);
+  background-image: url("./public/about_bg1.png");
+  z-index: 5;
+}
+.sec-1__img img {
+  max-width: 120%;
+}
+.sec-1__img h2 {
+  font-size: 7rem;
+  font-weight: 900;
+  color: var(--color-white);
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  line-height: 1.2;
+}
+.sec-1__about-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sec-1__about-1 h1 {
+  font-size: 5rem;
+}
+.sec-1__about-1 p {
+  font-size: 1.25rem;
+  max-width: 50ch;
+  padding-left: 2rem;
+}
+.sec-1__about-1-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: auto;
+  align-items: center;
+}
+.sec-1__about-1-btn button {
+  padding: 1.25rem 3.5rem;
+  font-weight: 400;
+  border-radius: 100vmax;
+}
+.about-1-btn1 {
+  background-color: var(--black-200);
+  color: var(--color-white);
+  font-size: larger;
+}
+.about-1-btn2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: medium;
+  outline-offset: -15px;
+}
+.sec-1__about-2 {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2.5rem 0 0 0;
+  padding: 2rem 0 2rem 0;
+}
+.sec-1__about-2 > div {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem 0;
+}
+
+.sec-1__about-2 > div:first-child {
+  border-right: 1px solid pink;
+  padding-right: 4rem;
+}
+.sec-1__about-2 > div:first-child h4 {
+  font-size: 4rem;
+  margin-right: 0.25rem;
+}
+.sec-1__about-2 > div:first-child p {
+  font-size: 0.875rem;
+  font-weight: 100;
+}
+.sec-1__about-2 > div:last-child img {
+  width: 2.5rem;
+  aspect-ratio: 1;
+  object-fit: contain;
+  margin-left: 2rem;
+  margin-right: 1.25rem;
+}
+.sec-1__about-2 > div:last-child p {
+  font-size: 0.75rem;
+  line-height: 2.25;
+}
