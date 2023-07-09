@@ -61,7 +61,7 @@
 .menu-1,
 .menu-2,
 .menu-3 {
-  padding: 2.5rem 2.75rem 2.5rem 2.75rem;
+  padding: 1.5rem 2.75rem 1.5rem 2.75rem;
   border-radius: 2rem;
   border: 1px solid rgb(255, 255, 255, 0.5);
   background-color: rgb(255, 255, 255, 0.1);
@@ -88,7 +88,7 @@
 }
 .sec-3-menus div.active {
   aspect-ratio: 1/1.25;
-  gap: 0.5rem;
+  gap: 1.5rem;
   background-color: var(--color-white);
   color: var(--gray-100);
 }
