@@ -5,6 +5,7 @@ import "./styles/header.css";
 import "./styles/sec-1.css";
 import "./styles/sec-2.css";
 import "./styles/sec-3.css";
+import "./styles/sec-4.css";
 // javascript
 import navigation from "./components/header";
 navigation();

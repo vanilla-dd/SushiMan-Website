@@ -68,7 +68,7 @@
   }
 
   .hamburger[aria-expanded="false"] {
-    background-image: url("../public/hamburgerClose.svg");
+    background-image: url("/hamburgerClose.svg");
     position: absolute;
     right: 1.25rem;
   }
@@ -76,6 +76,6 @@
   .hamburger[aria-expanded="true"] {
     position: fixed;
     right: 1.25rem;
-    background-image: url("../public/hamburgerOpen.svg");
+    background-image: url("/hamburgerOpen.svg");
   }
 }

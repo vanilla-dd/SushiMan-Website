@@ -21,11 +21,11 @@
 }
 
 .sec-2-1-img1 {
-  background-image: url("../public/about_bg1.png");
+  background-image: url("/about_bg1.png");
   border-bottom: 10px solid var(--color-creamson);
 }
 .sec-2-1-img2 {
-  background-image: url("../public/about_bg2.png");
+  background-image: url("/about_bg2.png");
 }
 .sec-2-1-img1 img,
 .sec-2-1-img2 img {

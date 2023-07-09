@@ -19,7 +19,7 @@
 }
 .sec-1__img {
   background-color: var(--primary-color);
-  background-image: url("./public/about_bg1.png");
+  background-image: url("/about_bg1.png");
 }
 .sec-1__img img {
   max-width: 120%;
