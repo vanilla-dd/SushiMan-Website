@@ -1,5 +1,4 @@
 footer {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem;
@@ -13,7 +12,6 @@ footer h3 span {
   color: var(--primary-color);
 }
 .links {
-  display: flex;
   gap: 4rem;
 }
 .links li a {
@@ -21,7 +19,6 @@ footer h3 span {
   font-size: 1.25rem;
 }
 .socials {
-  display: flex;
   gap: 2rem;
 }
 .socials li a {

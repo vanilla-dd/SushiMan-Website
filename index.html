@@ -4,13 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/sushi-9.png" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <script type="module" src="main.js"></script>
     <title>SushiMan</title>
   </head>
@@ -22,15 +15,15 @@
           <button class="hamburger" aria-expanded="false"></button>
         </div>
         <ul class="nav__links" data-visible="false">
-          <li><a href="#Menu">Menu</a></li>
-          <li><a href="#Food">Food</a></li>
-          <li><a href="#Service">Service</a></li>
-          <li><a href="#About">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#about">About Us</a></li>
           <button><img src="./search.svg" alt="Search" /></button>
         </ul>
       </nav>
     </header>
-    <section class="sec-1">
+    <section class="sec-1 flex">
       <div class="sec-1__img">
         <img src="sushi-1.png" alt="" />
         <h2>
@@ -40,20 +33,20 @@
         </h2>
       </div>
       <div class="sec-1__about">
-        <div class="sec-1__about-1">
+        <div class="sec-1__about-1 flex">
           <h1>Feel the taste of Japanese food</h1>
           <p>
             Feel the taste of most popular Japanese food from anywhere and
             anytime
           </p>
-          <div class="sec-1__about-1-btn">
+          <div class="sec-1__about-1-btn flex">
             <button class="about-1-btn1">Order Now</button>
-            <button class="about-1-btn2">
+            <button class="about-1-btn2 flex">
               <img src="play-circle.svg" alt="" />How to order
             </button>
           </div>
         </div>
-        <div class="sec-1__about-2">
+        <div class="sec-1__about-2 flex">
           <div>
             <h4>24k+</h4>
             <p>Happy Coustomer</p>
@@ -68,20 +61,20 @@
         </div>
       </div>
     </section>
-    <section class="sec-2">
-      <div class="sec-2-1">
-        <div class="sec-2-1-img1">
+    <section class="sec-2 flex" id="about">
+      <div class="sec-2-1 flex">
+        <div class="sec-2-1-img1 flex">
           <img src="/sushi-3.png" alt="" />
         </div>
-        <button class="sec-2-1-btn">
+        <button class="sec-2-1-btn flex">
           Learn More
           <img src="/arrow-up-right.svg" alt="" />
         </button>
-        <div class="sec-2-1-img2">
+        <div class="sec-2-1-img2 flex">
           <img src="/sushi-2.png" alt="" />
         </div>
       </div>
-      <div class="sec-2-2">
+      <div class="sec-2-2 flex">
         <p class="sec-2-about">About Us / 私たちに関しては</p>
         <h1 class="sec-2-heading">
           Our mission is to bring true Japanese flavours to you.
@@ -93,9 +86,9 @@
         </p>
       </div>
     </section>
-    <section class="sec-3">
+    <section class="sec-3 flex" id="menu">
       <h2 class="sec-3-heading">Popular Food / 人気</h2>
-      <div class="sec-3-btns">
+      <div class="flex sec-3-btns">
         <button class="active">All</button>
         <button>
           <img src="/sushi-9.png" alt="" />
@@ -106,7 +99,7 @@
         <button><img src="/sushi-6.png" alt="" />Danggo</button>
         <button>More</button>
       </div>
-      <div class="sec-3-menus">
+      <div class="sec-3-menus flex">
         <div class="menu-1">
           <img src="/sushi-12.png" alt="" />
           <h3>Chezu Sushi</h3>
@@ -145,15 +138,15 @@
         Explore Food <img src=".//arrow-right.svg" alt="" />
       </button>
     </section>
-    <section class="sec-4">
-      <div class="sec-4-1">
-        <div class="sec-4-1-trend trending">
+    <section class="sec-4 flex" id="food">
+      <div class="sec-4-1 flex">
+        <div class="sec-4-1-trend trending flex">
           <p class="whats_trend">What's Trending</p>
           <h2 class="sec-4-heading">Japanese Sushi / トレンド</h2>
           <p class="sec-4-desc">
             Feel the taste of the most delicious Sushi here.
           </p>
-          <ul>
+          <ul class="flex">
             <li>Make Sushi</li>
             <li>Uramaki Sushi</li>
             <li>Temaki Sushi</li>
@@ -162,7 +155,7 @@
             <li>Inari Sushi</li>
           </ul>
         </div>
-        <div class="sec-4-img">
+        <div class="sec-4-img flex">
           <img src="/sushi-5.png" alt="" />
           <div class="arrow arrow-1">
             <img src="/arrow-vertical.svg" alt="" />
@@ -173,8 +166,8 @@
         </div>
       </div>
       <button class="sec-4-btn">Discover</button>
-      <div class="sec-4-2">
-        <div class="sec-4-img">
+      <div class="sec-4-2 flex">
+        <div class="sec-4-img flex">
           <img src="/sushi-4.png" alt="" />
           <div class="arrow arrow-4">
             <img src="/arrow-vertical.svg" alt="" />
@@ -183,13 +176,13 @@
             <img src="/arrow-horizontal.svg" alt="" />
           </div>
         </div>
-        <div class="sec-4-2-trend trending">
+        <div class="sec-4-2-trend trending flex">
           <p class="whats_trend">What's Trending</p>
           <h2 class="sec-4-heading">Japanese Drinks / トレンド</h2>
           <p class="sec-4-desc">
             Feel the taste of the most delicious drinks here.
           </p>
-          <ul>
+          <ul class="flex">
             <li>Oruncha</li>
             <li>Aojiru</li>
             <li>Kombu-cha</li>
@@ -200,7 +193,7 @@
         </div>
       </div>
     </section>
-    <section class="sec-5">
+    <section class="sec-5 flex" id="service">
       <h1 class="sec-5-heading">Get offers straight to your inbox</h1>
       <p class="sec-5-desc">Sign up for the Sushiman newsletter</p>
       <div class="sec-5-search">
@@ -208,15 +201,15 @@
         <button>Get Started</button>
       </div>
     </section>
-    <footer>
+    <footer class="flex">
       <h3>SUSHI<span>MAN</span></h3>
-      <ul class="links">
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Food</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Us</a></li>
+      <ul class="links flex">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#about">About Us</a></li>
       </ul>
-      <ul class="socials">
+      <ul class="socials flex">
         <li>
           <a href="#"><img src="/facebook.svg" alt="" /></a>
         </li>

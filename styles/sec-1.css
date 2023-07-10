@@ -1,5 +1,4 @@
 .sec-1 {
-  display: flex;
   align-items: end;
   overflow: hidden;
 }
@@ -34,7 +33,6 @@
   line-height: 1.2;
 }
 .sec-1__about-1 {
-  display: flex;
   flex-direction: column;
   gap: 2rem;
 }
@@ -47,7 +45,6 @@
   padding-left: 2rem;
 }
 .sec-1__about-1-btn {
-  display: flex;
   justify-content: space-evenly;
   margin-top: auto;
   align-items: center;
@@ -63,7 +60,6 @@
   font-size: larger;
 }
 .about-1-btn2 {
-  display: flex;
   align-items: center;
   gap: 0.5rem;
   font-size: medium;
@@ -71,7 +67,6 @@
 }
 .sec-1__about-2 {
   background-color: var(--color-white);
-  display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 2.5rem 0 0 0;

@@ -13,3 +13,9 @@
   --color-white: #fff;
   --color-creamson: #fff0de;
 }
+html {
+  scroll-behavior: smooth;
+}
+.flex {
+  display: flex;
+}
